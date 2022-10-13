@@ -8,11 +8,7 @@ class Page1 extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        // appBar: AppBar(
-        //   title: Text(
-        //     '',
-        //   ),
-        // ),
+
         body: SingleChildScrollView(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
@@ -28,15 +24,17 @@ class Page1 extends StatelessWidget {
                 },
               ),
               Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Center(
-                    child: Image.asset(
-                      'assets/chicken.jpg',
-                      width: 100,
-                      height: 100,
-                    ),
+                  Center(child:
+                    
+                       Image.asset(
+                        'assets/chicken.jpg',
+                        width: 100,
+                        height: 100,
+                      )
+                    
                   ),
                 ],
               ),

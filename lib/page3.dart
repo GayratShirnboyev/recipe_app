@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recipe_app/page5.dart';
 
 class Page3 extends StatelessWidget {
   const Page3({Key? key}) : super(key: key);
@@ -33,11 +34,15 @@ class Page3 extends StatelessWidget {
                 children: [
                   Center(
                     child: Image.asset(
-                      'assets/vega.png',
-                      width: 100,
-                      height: 100,
+                      'assets/pic.png',
+                      width: 600,
+                      height: 600,
                     ),
-                  ),
+                  ),TextButton(child: Text('G\'ayrat'),onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context){
+                      return Page5();
+                    }));
+                  },)
                 ],
               ),
             ],

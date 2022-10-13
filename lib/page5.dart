@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Page4 extends StatelessWidget {
-  const Page4({Key? key}) : super(key: key);
+class Page5 extends StatelessWidget {
+  const Page5({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -33,9 +33,9 @@ class Page4 extends StatelessWidget {
                 children: [
                   Center(
                     child: Image.asset(
-                      'assets/nature.jpg',
-                      width: 300,
-                      height: 300,
+                      'assets/chicken.jpg',
+                      width: 100,
+                      height: 100,
                     ),
                   ),
                 ],
